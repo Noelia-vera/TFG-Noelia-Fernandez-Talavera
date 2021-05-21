@@ -1,0 +1,40 @@
+//Noelia Fernández Talavera
+//TFG ITI URJC
+//Código de movimiento de navegación en Unity
+//Funciones necesarias para la configuración de movimiento
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ControladorNavMesh : MonoBehaviour //Inicialización de variables
+{
+    
+    private UnityEngine.AI.NavMeshAgent navMeshAgent;   //Variable privada, no se puede visualizar
+    public float DistanciaUltrasonidos; //Variable pública, se puede visualizar
+        //Funcion de inicialización
+    void Awake (){
+        navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+    }
+    //Función para actualizar el punto de destino y que continúe con el recorrido
+    public void ActualizarPuntoDestinoNavMeshAgent(Vector3 puntoDestino){   //Actualiza el punto de destino del robot
+        navMeshAgent.destination = puntoDestino;
+        navMeshAgent.isStopped = false;  //Continua el camino
+    }
+    
+    // Bucle que se ejecuta cada frame
+    void Update()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast (transform.position, transform.TransformDirection (Vector3.forward), out hit)){
+            DistanciaUltrasonidos = hit.distance; //Calcula la distancia de los objeto de delante
+        }  
+    }
+
+    public void DetenerNavMeshAgent(){
+        navMeshAgent.isStopped = true; //Función de parada
+    }
+
+    public bool Llegada(){ //Función de aviso de llegada al punto de destino
+        return navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance && !navMeshAgent.pathPending;
+    }
+}
