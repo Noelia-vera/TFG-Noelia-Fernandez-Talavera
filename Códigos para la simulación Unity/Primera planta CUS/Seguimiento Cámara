@@ -1,0 +1,31 @@
+//Noelia Fernández Talavera
+//TFG ITI URJC
+//Código de seguimiento de la cámara en Unity
+//Funciones necesarias para la configuración de movimiento
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Camerafollow : MonoBehaviour     //Inicialización de variables
+{
+    public Vector3 offset;           //Variable pública, podemos ver su valor
+    private Transform target;       //Variable privada, no podemos ver su valor
+    [Range (0,1)] public float lerpValue; //Rango de movimiento de la cámara
+    public float sensibilidad;  //Variable pública, podemos ver su valor
+
+
+    //Función de inicio que solo se ejecuta una vez
+    void Start()
+    {
+        target = GameObject.Find("Robot").transform; //Se busca al robot para convertirlo en el objeto de seguimiento
+    }
+
+    //Función que se ejecuta en cada frame
+    void LateUpdate()
+    {
+        transform.position = Vector3.Lerp(transform.position, target.position + offset, lerpValue);     //Se modifica la posición con el movimiento
+        offset = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * sensibilidad, Vector3.up) * offset;    //Se mueve el ratón para el manejo de la camara
+        
+        transform.LookAt(target); //De forma automática la cámara mira al robot
+    }
+}
