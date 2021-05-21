@@ -1,0 +1,184 @@
+//TFG Noelia Fernández Talavera
+// TFG ITI URJC
+//---------------------------------------------------
+// Este código sirve para el control manual de los motores del robot 
+//Las ordenes vienen de las raspberry pi que se ejecutan por teclado
+
+//Inicilizamos las variables de control de los dos motores
+//E1 Y E2 son las variables de control del PWM que tiene el controlador de motores para aportar el mismo voltaje siempre, independientemente de
+//la carga de las baterías, asi conseguimos un mismo comportamiento siempre
+//M1 y M2 hacen referencia a las variables del controlador que mueve elmotor, las que controlan la velocidad de giro de los motores.
+
+// Motor A DERECHO
+int E1 = 6;
+int M1 = 7;
+
+// Motor B IZQUIERDO
+int E2 = 5;
+int M2 = 4;
+
+//En esta función indicamos la inicializacion de las señales de salida, en este caso, los dos motores. Además inicalizamos el puerto serie para ver lo que obtenemos
+//Esto solo se ejecuta una vez
+void setup ()
+{
+ // Declaramos todos los pines como salidas
+ pinMode (M1, OUTPUT);
+ pinMode (M2, OUTPUT);
+
+ Serial.begin(9600);//Inicializamos el puerto serie a los baudios correspondientes
+ 
+}
+ //Ahora de manera independiente vamos a crear las distintas funciones que moveran el robot en distintos sentidos.
+ //Estas funciones permiten una mejor organización en el código ya que cuando queramos usarlas solo tienen que ser llamadas,
+ //no hace falta escribir todo lo que hacen cada vez que se usen.
+
+void Adelante ()
+//Esta función mueve los motores hacia delante.Notese que los motores tiene que girar en sentidos contratios para obtener un mismo 
+//sentido de giro, ya que su posición es simétrica pero su conexión física es antimétrica.
+{
+ //Direccion motor A
+ digitalWrite (M1, LOW);
+ analogWrite (E1,150); //Velocidad motor A
+  //Direccion motor B
+ digitalWrite (M2, HIGH);
+ analogWrite (E2,150); //Velocidad motor B
+}
+
+
+void Atras ()
+//Esta función mueve los motores hacia atrás. Será la fnción contraria a la función 'Adelante'
+{
+ //Direccion motor A
+ digitalWrite (M1, HIGH);
+ analogWrite (E1,150); //Velocidad motor A
+  //Direccion motor B
+ digitalWrite (M2, LOW);
+ analogWrite (E2,150); //Velocidad motor B
+}
+
+ void Derecha ()
+
+ //Esta función girará el robot hacia la derecha en el sitio. Esto se consigue moviendo los motores en sentidos contrarios entre sí
+{
+ //Direccion motor A
+ digitalWrite (M1, HIGH);
+ analogWrite (E1,220); //Velocidad motor A
+  //Direccion motor B
+ digitalWrite (M2, HIGH);
+ analogWrite (E2,220); //Velocidad motor B
+}
+
+ void Izquierda ()
+  //Esta función girará el robot hacia la izquierda en el sitio. Esto se consigue moviendo los motores en sentidos contrarios entre sí
+
+{
+ //Direccion motor A
+ digitalWrite (M1, LOW);
+ analogWrite (E1,220); //Velocidad motor A
+  //Direccion motor B
+ digitalWrite (M2, LOW);
+ analogWrite (E2,220); //Velocidad motor B
+}
+
+
+ void Aproxderecha ()
+  //Esta función girará el robot hacia la derecha en movimiento, es decir, se ira aproximando a la derecha poco a poco.
+  //Esto se consigue moviendo los motores en el mismo sentido de giro pero en velocidades distintas.
+
+{
+ //Direccion motor A
+ digitalWrite (M1, LOW);
+ analogWrite (E1,100); //Velocidad motor A
+  //Direccion motor B
+ digitalWrite (M2, HIGH);
+ analogWrite (E2,150); //Velocidad motor B
+}
+
+ void Aproxizquierda ()
+   //Esta función girará el robot hacia la izquierda en movimiento, es decir, se ira aproximando a la izquierda poco a poco.
+  //Esto se consigue moviendo los motores en el mismo sentido de giro pero en velocidades distintas.
+{
+ //Direccion motor A
+ digitalWrite (M1, LOW);
+ analogWrite (E1,150); //Velocidad motor A
+  //Direccion motor B
+ digitalWrite (M2, HIGH);
+ analogWrite (E2,100); //Velocidad motor B
+}
+
+
+ void Detrasderecha ()
+  //Esta función girará el robot hacia la derecha en movimiento, es decir, se ira aproximando a la derecha poco a poco pero hacia atrás.
+  //Esto se consigue moviendo los motores en el mismo sentido de giro pero en velocidades distintas.
+
+{
+ //Direccion motor A
+ digitalWrite (M1, HIGH);
+ analogWrite (E1,100); //Velocidad motor A
+  //Direccion motor B
+ digitalWrite (M2, LOW);
+ analogWrite (E2,150); //Velocidad motor B
+}
+
+ void Detrasizquierda ()
+  //Esta función girará el robot hacia la derecha en movimiento, es decir, se ira aproximando a la izquierda poco a poco pero hacia atrás.
+  //Esto se consigue moviendo los motores en el mismo sentido de giro pero en velocidades distintas.
+
+{
+ //Direccion motor A
+ digitalWrite (M1, HIGH);
+ analogWrite (E1,150); //Velocidad motor A
+  //Direccion motor B
+ digitalWrite (M2, LOW);
+ analogWrite (E2,100); //Velocidad motor B
+}
+
+void Parar ()
+  //Esta función parara el robot en el sitio. Solo tenemos que moner las velocidades de los motores a 0
+{
+ digitalWrite (M1, LOW);
+ analogWrite (E1,0); //Velocidad motor A
+  //Direccion motor B
+ digitalWrite (M2, HIGH);
+ analogWrite (E2,0); //Velocidad motor B
+}
+
+void Turbo ()
+  //Esta función mueve el robot hacia delante más rápido
+{
+ digitalWrite (M1, LOW);
+ analogWrite (E1,250); //Velocidad motor A
+  //Direccion motor B
+ digitalWrite (M2, HIGH);
+ analogWrite (E2,250); //Velocidad motor B
+}
+void loop() {
+
+  //Este bucle ejecuta las funciones explicadas más arriba. La raspberry es quien da las ordenes a la placa arduino, quien ejecuta las
+  //funciones de movimiento. Para ello tiene que leer lo que se escriba por teclado.
+  
+  if (Serial.available()) { //Si está disponible
+      char c = Serial.read(); //Guardamos la lectura en una variable char
+      if (c == 'W') { //Si es una 'W', avanza hacie delante
+         Adelante();
+      } else if (c == 'S') { //Si es una 'S', avanza hacia atrás
+         Atras();
+      } else if (c == 'A') { //Si es una 'A', gira a la izquierda
+         Izquierda();
+      } else if (c == 'D') { //Si es una 'D', gira a la derecha
+         Derecha();
+      } else if (c == 'Q') { //Si es una 'Q', avanza y gira hacia la izquierda
+         Aproxizquierda();
+      } else if (c == 'E') { //Si es una 'E', avanza y gira hacia la derecha
+         Aproxderecha();
+      } else if (c== 'Z'){  //Si es una 'Z', avanza y gira hacia la izquierda y atrás
+        Detrasizquierda ();
+      } else if (c== 'C'){  //Si es una 'C', avanza y gira hacia la derecha y atrás
+        Detrasderecha ();
+      } else if (c == 'X') { //Si es una 'X', se para
+         Parar();
+      } else if (c == 'T') { //Si es una 'T', avanza hacia delante más rápido
+         Turbo();
+      } 
+   }
+}
