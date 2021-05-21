@@ -1,0 +1,32 @@
+//Noelia Fernández Talavera
+//TFG ITI URJC
+//Código de movimiento de evacuación en Unity
+//Funciones necesarias para la configuración de movimiento
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.AI;
+
+public class Navegation : MonoBehaviour     //Inicialización de variables
+{
+    public Transform target;            //Variable pública, podemos ver su valor
+    private NavMeshAgent nav;           //Variable privada, no se puede visualizar
+    public float DistanciaUltrasonidos;  //Variable publicasensor para la distancia
+
+    
+   //Función de inicio que solo se ejecuta una vez
+    void Start()
+    {
+        nav = GetComponent<NavMeshAgent>(); //Convertimos el escacio disponible en navegable
+    }
+
+     //Función que se ejecuta en cada frame
+    void Update()
+    {
+        nav.destination = target.position;  //Indicamos que el robot vaya a la posición donde se encuentre el bombero (salida)
+        RaycastHit hit;
+        if (Physics.Raycast (transform.position, transform.TransformDirection (Vector3.forward), out hit)){
+            DistanciaUltrasonidos = hit.distance; //Indica la distancia a los objetos delanteros
+        }        
+    }
+}
