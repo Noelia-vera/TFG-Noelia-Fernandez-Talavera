@@ -1,0 +1,46 @@
+//Noelia Fernández Talavera
+//TFG ITI URJC
+//Estado automatico que sigue hace el recorrido de las balizas
+//Funciones necesarias para la configuración de movimiento
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class RecorridoBalizas : MonoBehaviour    //Inicialización de variables
+{
+    public Transform[] WayPoints;   //Variable pública que se puede modificar
+
+    private ControladorNavMesh controladorNavMesh;  //Variable privada que no se puede modificar
+    private int siguienteWayPoint;      //Variable privada que no se puede modificar
+//De esta forma se puede seleccionar desde fuera los puntos a seguir
+
+    // Función que solo se ejecuta una vez
+    void Awake()
+    {
+        controladorNavMesh = GetComponent<ControladorNavMesh>();
+    }
+
+    // Función que se ejecura en cada frame
+    void Update (){
+        if(controladorNavMesh.Llegada()) //Si detecta que el objeto ha llegado, le manda a la posición siguiente
+        {
+            siguienteWayPoint = (siguienteWayPoint + 1) % WayPoints.Length; //Para que sea cíclico
+            ActualizarWayPointDestino(); //El punto nuevo se actualiuza
+        }
+    }
+    
+    // Función que se ejecuta en cada frame
+    void OnEnable()
+    {
+        siguienteWayPoint = 0; //Empezamos en el punto 0
+        ActualizarWayPointDestino(); //Llama a la función que actualiza el punto de destino
+    }
+
+    void ActualizarWayPointDestino() //Función para actualizar el punto de destino
+    {
+        controladorNavMesh.ActualizarPuntoDestinoNavMeshAgent(WayPoints[siguienteWayPoint].position);
+
+    }
+}
+
+
