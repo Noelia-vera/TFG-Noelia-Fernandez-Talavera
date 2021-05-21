@@ -1,0 +1,67 @@
+//Noelia Fernández Talavera
+//TFG ITI URJC
+//Código de movimiento de evacuación en Unity
+//Funciones necesarias para la configuración de movimiento
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MovimientoRobot : MonoBehaviour
+{
+    
+    public float DistanciaUltrasonidos;
+    public float horizontalMove;        //Variable pública, podemos ver su valor
+    public float verticalMove;          //Variable pública, podemos ver su valor
+    public float moveSpeed;             //Variable pública accesible para variar la velocidad 
+    private Rigidbody rb;               //Variable privada, fija.
+    
+
+    private Vector3 moveInput;          //Variable privada, fija. Movimiento del personaje
+    private Vector3 moveVelocity;       //Variable privada, fija. Velocidad del movimiento
+
+    
+    private Camera mainCamera;          //Variable privada, fija. Control de la cámara
+
+    void Start ()                       // Bucle del inicio
+    {
+        rb = GetComponent<Rigidbody>();
+        mainCamera = Camera.main;
+    }
+
+    void Update()                           //Bucle que se repite con cada frame
+    {      
+        
+        RaycastHit hit;
+        if (Physics.Raycast (transform.position, transform.TransformDirection (Vector3.forward), out hit)){
+            DistanciaUltrasonidos = hit.distance;
+        }        
+       
+        horizontalMove = Input.GetAxis("Horizontal");     //Movimiento horizontal (derecha e izquierda) controlado con las teclas  'A' y 'D', o con las flechas
+        verticalMove = Input.GetAxis("Vertical");        //Movimiento vertical (delante y detrás) controlado con las teclas  'W' y 's', o con las flechas
+
+
+        moveInput = new Vector3(horizontalMove, 0 ,verticalMove); //posicion del jugarod y 0f para que no salte
+        moveInput = Vector3.ClampMagnitude(moveInput, 1 ); // Para que el movimiento diagonal no sea mayor que el de los ejes perpendiculares
+        
+        Vector3 cameraForward = mainCamera.transform.forward;       //Cámara hacia delante
+        
+        cameraForward.y = 0;                //Fijar el eje y en 0
+            
+        Quaternion cameraRelativeRotation = Quaternion.FromToRotation (Vector3.forward, cameraForward);
+        Vector3 lookToward = cameraRelativeRotation * moveInput;
+
+        if (moveInput.sqrMagnitude > 0)         //Genera un rayo un metro por delante del robot en el movimiento
+        {   
+            Ray lookRay = new Ray(transform.position, lookToward);
+            transform.LookAt(lookRay.GetPoint(1));
+        }
+       
+        moveVelocity = transform.forward * moveSpeed * moveInput.sqrMagnitude; //Movimiento del personaje con una cierta velocidad
+    }
+
+    void FixedUpdate()  //Función de movimiento fluido
+    {
+        rb.velocity = moveVelocity;  // cada 20 ms el personaje se mueve por las fisicas
+    }
+    
+}
