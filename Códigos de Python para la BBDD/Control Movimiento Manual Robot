@@ -1,11 +1,11 @@
 # Noelia Fernández Talavera
 # TFG ITI URJC
-#Este código controla manualmente el robot
+#Este código controla manualmente el robot. El código se ejecuta en una Raspberry PI
 
 import serial
 
 arduino = serial.Serial('/dev/ttyACM0', 9600) # Se abre el puerto serie de Arduino
-#Se imprime el modo que se ejecuta
+#Se imprime el modo que se ejecuta	
 print("MODO MANUAL")
 
 #Se crea un codigo que ejecuta constantemente las órdener que lee por teclado
