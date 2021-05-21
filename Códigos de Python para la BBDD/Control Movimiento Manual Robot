@@ -1,0 +1,36 @@
+# Noelia Fernández Talavera
+# TFG ITI URJC
+#Este código controla manualmente el robot
+
+import serial
+
+arduino = serial.Serial('/dev/ttyACM0', 9600) # Se abre el puerto serie de Arduino
+#Se imprime el modo que se ejecuta
+print("MODO MANUAL")
+
+#Se crea un codigo que ejecuta constantemente las órdener que lee por teclado
+while True:
+      comando = raw_input('Introduce un comando de movimiento: ') #Input
+      arduino.write(comando) #Mandar un comando hacia Arduino
+      if comando == 'W':      #Si se pulsa 'W' en robot avanza hacia delante
+         print('Adelante')
+      elif comando == 'S':    #Si se pulsa 'S' en robot avanza hacia detrás
+    	   print('Atras')
+      elif comando == 'D':    #Si se pulsa 'D' en robot gira a la derecha
+           print('Derecha')
+      elif comando == 'A':    #Si se pulsa 'A' en robot gira a la izquierda
+    	   print('Izquierda')
+      elif comando == 'E':    #Si se pulsa 'E' en robot hace una aproximación a la derecha
+    	   print('Aproxderecha')
+      elif comando == 'Q':    #Si se pulsa 'Q' en robot hace una paroximacion a la izquierda
+	       print('Aproxizquierda')
+      elif comando == 'Z':    #Si se pulsa 'Z' en robot hace una aproximación a la izquierda y atrás
+	       print('Detrasizquierda')  
+      elif comando == 'C':    #Si se pulsa 'C' en robot hace una aproximación a al derecha y atrás
+	       print('Detrasderecha') 
+      elif comando == 'X':    #Si se pulsa 'X' en robot se para
+         print('Parada')
+      elif comando == 'T':    #Si se pulsa 'T' en robot avanza hacia delante más rápido
+         print('Turbo')
+
+arduino.close() #Finalizamos la comunicación
