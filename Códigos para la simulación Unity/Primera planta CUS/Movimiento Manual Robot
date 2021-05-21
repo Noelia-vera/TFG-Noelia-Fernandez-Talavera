@@ -1,0 +1,66 @@
+//Noelia Fernández Talavera
+//TFG ITI URJC
+//Código de movimiento manual del robot para la simulació en Unity
+//Funciones necesarias para la configuración de movimiento
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Robotmove : MonoBehaviour  //Inicialización de variables
+{
+    public float horizontalMove;        //Variable pública, podemos ver su valor
+    public float verticalMove;          //Variable pública, podemos ver su valor
+    public float moveSpeed;             //Variable pública accesible para variar la velocidad 
+    private Rigidbody rb;               //Variable privada, fija.
+    public float DistanciaUltrasonidos;        //Variable sensor para la distancia
+
+    private Vector3 moveInput;          //Variable privada, fija. Movimiento del personaje
+    private Vector3 moveVelocity;       //Variable privada, fija. Velocidad del movimiento
+
+    
+    private Camera mainCamera;          //Variable privada, fija. Control de la cámara
+    //Función de inicio que solo se ejecuta una vez
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>(); //Inicializar el objeto con el componente rígido
+        mainCamera = Camera.main;       //Inicializar la cámara para le seguimiento
+        
+    }
+
+    // Esta función se ejecuta constantemente en cada frame
+    void Update()
+    {
+        RaycastHit hit;     //Se genera un rayo en la trayectoria para saber que hay delante
+        if (Physics.Raycast (transform.position, transform.TransformDirection (Vector3.forward), out hit)){
+            DistanciaUltrasonidos = hit.distance;       //mide la distancia de los objetos delanteros, como un sensor de ultrasonidos
+        }   
+
+        horizontalMove = Input.GetAxis("Horizontal");     //Movimiento horizontal (derecha e izquierda) controlado con las teclas  'A' y 'D', o con las flechas
+        verticalMove = Input.GetAxis("Vertical");        //Movimiento vertical (delante y detrás) controlado con las teclas  'W' y 'S', o con las flechas
+
+
+        moveInput = new Vector3(horizontalMove, 0 ,verticalMove); //posicion del jugador y 0f para que no salte
+        moveInput = Vector3.ClampMagnitude(moveInput, 1 ); // Para que el movimiento diagonal no sea mayor que el de los ejes perpendiculares
+        
+        Vector3 cameraForward = mainCamera.transform.forward;       //Cámara hacia delante
+        
+        cameraForward.y = 0;                //Fijar el eje y en 0
+            
+        Quaternion cameraRelativeRotation = Quaternion.FromToRotation (Vector3.forward, cameraForward); //Funciones con cuaterniones para que los giros sean realistas
+        Vector3 lookToward = cameraRelativeRotation * moveInput;
+
+
+        if (moveInput.sqrMagnitude > 0)         //Genera un rayo un metro por delante del robot en el movimiento
+        {   
+            Ray lookRay = new Ray(transform.position, lookToward);
+            transform.LookAt(lookRay.GetPoint(1));
+        }
+       
+        moveVelocity = transform.forward * moveSpeed * moveInput.sqrMagnitude; //Movimiento del personaje con una cierta velocidad
+    }
+
+    void FixedUpdate()  //Función de movimiento fluido
+    {
+        rb.velocity = moveVelocity;  // cada 20 ms el personaje se mueve por las fisicas
+    }
+}
