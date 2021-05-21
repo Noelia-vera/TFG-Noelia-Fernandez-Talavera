@@ -1,0 +1,29 @@
+//Noelia Fernández Talavera
+//TFG ITI URJC
+//Máquina de estados que decide el movimiento
+//Funciones necesarias para la configuración de movimiento
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MaquinaEstados : MonoBehaviour     //Inicialización de variables
+{
+    public MonoBehaviour RecorridoBalizas;  //Variable pública que se puede modificar
+    public MonoBehaviour EstadoInicial;     //Variable pública que se puede modificar
+    private MonoBehaviour estadoActual;     //Variable privada que no se puede modificar
+ //Desde el modo juego se va a aincluir en estas variables el script que corresponda en cada estado
+    // Función que solo se ejecuta una vez
+    void Start()
+    {
+        ActivarEstado(EstadoInicial); //Inicialización del estado actual
+    }
+
+    // FUnción que se ejecura en cada frame
+    public void ActivarEstado(MonoBehaviour nuevoEstado) //Modo de cabio de estado
+    {
+        //En este bucle se cambai un estado y otro
+        if(estadoActual!=null) estadoActual.enabled = false;
+        estadoActual = nuevoEstado;
+        estadoActual.enabled = true;
+    }
+}
