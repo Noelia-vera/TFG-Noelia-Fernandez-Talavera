@@ -18,7 +18,7 @@
 
 * **Códigos de Arduino:** Códigos para subir a la placa Arduino que controla el movimiento del robot y la toma de datos de los sensores.
 
-* **Códigos de Python para la Raspberry Pi: ** Códigos para ejectar en la Raspberry de manejo del robot y subida de datos a la BBDD.
+* **Códigos de Python para la Raspberry Pi:**  Códigos para ejectar en la Raspberry de manejo del robot y subida de datos a la BBDD.
 
 * **Códigos para la simulación de Unity:** códigos para ejecutar en Unity para el movimiento manual, automático y evacuación del robot.
 * **Imágenes:** Diseño en AutoCAD de todos los componentes para la simulación del robot en Unity, imágenes del robot real y de las partes de la torre de bomberos para la simulación (primera planta y sótano).
@@ -38,13 +38,24 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 
 #### 1. ROBOT REAL
 
-![Robot montado](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Small/robot_montado.PNG)
+
 
 ***
 
 #### 2. ROBOT SIMULADO
 
-![Robot montado](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Small/robot_montado.PNG)
+![Robot montado](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/robot_montado.PNG)
+
+![Robot montado](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Robot_montado2.PNG)
+
+<p algin="center">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/robot_montado.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Robot_montado2.PNG">
+</p>
+
+
+
+
 
 #### 3. UNITY
 
