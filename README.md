@@ -44,10 +44,6 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 
 #### 2. ROBOT SIMULADO
 
-![Robot montado](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/robot_montado.PNG)
-
-![Robot montado](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Robot_montado2.PNG)
-
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/robot_montado.PNG">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Robot_montado2.PNG">
