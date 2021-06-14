@@ -111,7 +111,7 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Arduino.PNG">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Controlador.PNhttps://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Pozyx.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Pozyx.PNG">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Pozyx_Arduino.PNG">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Raspberry.PNG">
      <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Sensor_gas.PNG">
