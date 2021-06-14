@@ -39,10 +39,10 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 #### 1. ROBOT REAL
 
 <p algin="center">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/Robot_alzado.jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/Robot_perfil%20(2).jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/Robot_alzadot.jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/Robot_perfil.jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/Robot_alzado.jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/Robot_perfil%20(2).jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/Robot_alzadot.jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/Robot_perfil.jpg">
 </p>
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/Robot_perspectiva%20(2).jpg">
@@ -52,84 +52,110 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 </p>
 
 
+
 ##### 	1.1 NIVEL 0
 
 <p algin="center">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N0detalle.jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N0detalle%20(2).jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N0detalle.jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N0detalle%20(2).jpg">
 </p>
+
 
 
 ##### 	1.2 NIVEL 1
 
 <p algin="center">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N1planta.jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N1perfil.jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N1detalle.jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N1detalle%20(2).jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N1planta.jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N1perfil.jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N1detalle.jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N1detalle%20(2).jpg">
 </p>
+
 
 
 ##### 	1.3 NIVEL 2
 
 <p algin="center">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N2tapa.jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N2planta.jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N2perfil%20(2).jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N2detalle.jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N2despejado.jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N2tapa.jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N2planta.jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N2perfil%20(2).jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N2detalle.jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N2despejado.jpg">
 </p>
 
 
-##### 	1.4 Nivel 3
+
+##### 	1.4 NIVEL 3
 
 <p algin="center">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N3perfil%20(3).jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N3perfil%20(2).jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N3perfil.jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N3detalle.jpg">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N3frente.jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N3perfil%20(3).jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N3perfil%20(2).jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N3perfil.jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N3detalle.jpg">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N3frente.jpg">
 </p>
+
 
 
 
 ***
 
-#### 2. ROBOT SIMULADO
+#### 2. ROBOT SIMULADO EN AUTOCAD Y EN UNITY
 
-#####		2.1 NIVELES
-
-<p algin="center">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/robot_montado.PNG">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Robot_montado2.PNG">
-     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Chasis.PNG">   
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Nivel%200_1.PNG">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Nivel2.PNG">
-</p>
-
-##### 	2.2 COMPONENTES
+#####		2.1 ROBOT Y NIVELES EN AUTOCAD
 
 <p algin="center">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Arduino.PNG">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Pozyx.PNG">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Pozyx_Arduino.PNG">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Raspberry.PNG">
-     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Sensor_gas.PNG">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Temperatura.PNG">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Ultrasonidos_soporte.PNG">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Protoboard.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/robot_montado.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/Robot_montado2.PNG">
+     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/Chasis.PNG">   
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/Nivel%200_1.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/Nivel2.PNG">
 </p>
+
+
+##### 	2.2 COMPONENTES AUTOCAD
+
+<p algin="center">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/Arduino.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/Pozyx.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/Pozyx_Arduino.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/Raspberry.PNG">
+     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/Sensor_gas.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/Temperatura.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/Ultrasonidos_soporte.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/Protoboard.PNG">
+</p>
+
+
+
+##### 2.3 ROBOT Y NIVELES EN UNITY
+
+<p algin="center">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/Small/perfili.png">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/Small/alzado.png">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/Small/perfild.png">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/Small/alzadot.png">
+     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/Small/persp%20(2).PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/Temperatura.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/Small/persp2.png">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/Small/persp%20(4).PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/N1.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/N2.png">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/detalles1.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/detalles.png">
+    </p>
+
+​    
+
 
 ***
 
 
+#### 3. ENTORNO EN UNITY
 
+##### 3.1 SÓTANO
 
-#### 3. UNITY
-
-
-
-
+##### 3.2 PRIMERA PLANTA
 
 ***
 
@@ -138,9 +164,14 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 ##### 	4.1 PRUEBA 1, SÓTANO
 
  <p algin="center">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/BBDD_Resultados/Prueba1_aire.png">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/BBDD_Resultados/Prueba1_ambiental.png">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/BBDD_Resultados/Prueba1/Prueba1_aire.png">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/BBDD_Resultados/Prueba1/Prueba1_ambiental.png">
 </p>
+
+
+
+##### 4.2 PRUEBA 2, PRIMERA PLANTA
+
 
 ***
 
