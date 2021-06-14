@@ -142,9 +142,6 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
     </p>
 
 <p algin="center">   
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/Small/N1.PNG">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/Small/N2.png">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/Small/detalles.png">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/Small/detalles1.PNG">
    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/Small/N1.PNG">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/Small/N2.png">
