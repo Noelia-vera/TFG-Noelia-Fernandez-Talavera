@@ -52,7 +52,7 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 </p>
 
 
-##### 1.1 Nivel 0
+##### 	1.1 NIVEL 0
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N0detalle.jpg">
@@ -60,7 +60,7 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 </p>
 
 
-##### 1.2 Nivel 1
+##### 	1.2 NIVEL 1
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N1planta.jpg">
@@ -70,7 +70,7 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 </p>
 
 
-##### 1.3 Nivel 2
+##### 	1.3 NIVEL 2
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N2tapa.jpg">
@@ -81,7 +81,7 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 </p>
 
 
-##### 1.4 Nivel 3
+##### 	1.4 Nivel 3
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot_real/Small/N3perfil%20(3).jpg">
@@ -97,11 +97,32 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 
 #### 2. ROBOT SIMULADO
 
+#####		2.1 NIVELES
+
 <p algin="center">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/robot_montado.PNG">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Robot_montado2.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/robot_montado.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Robot_montado2.PNG">
+     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Chasis.PNG">   
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Nivel%200_1.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Nivel2.PNG">
 </p>
+
+##### 	2.2 COMPONENTES
+
+<p algin="center">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Arduino.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Controlador.PNhttps://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Pozyx.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Pozyx_Arduino.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Raspberry.PNG">
+     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Sensor_gas.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Temperatura.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Ultrasonidos_soporte.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Componentes_robot_simulacion/Small/Protoboard.PNG">
+</p>
+
 ***
+
+
 
 
 #### 3. UNITY
@@ -114,7 +135,7 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 
 #### 4. BASE DE DATOS
 
-##### 4.1 Prueba 1, Sótano
+##### 	4.1 PRUEBA 1, SÓTANO
 
  <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/BBDD_Resultados/Prueba1_aire.png">
