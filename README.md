@@ -176,3 +176,16 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 
 ***
 
+##### 4. EJEMPLOS PLANOS
+
+[Planos](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/tree/main/Planos)
+
+<p algin="center">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_cotas_Controlador.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_dise%C3%B1o_Controlador.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_cotas_PozyxArduino.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_dise%C3%B1o_PozyxArduino.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_cotas_Ultrasonidos_Soporte.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_dise%C3%B1o_Ultrasonidos_Soporte.PNG">
+</p>
+
