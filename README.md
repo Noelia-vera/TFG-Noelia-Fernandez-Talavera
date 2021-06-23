@@ -46,7 +46,7 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/Robot_perspectiva%20(4).jpg">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/Robot_perspectiva.jpg">
 </p>
-##### 	1.1 NIVEL 0
+##### 	NIVEL 0
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N0detalle.jpg">
@@ -55,7 +55,7 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 
 
 
-##### 	1.2 NIVEL 1
+##### 	NIVEL 1
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N1planta.jpg">
@@ -66,7 +66,7 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 
 
 
-##### 	1.3 NIVEL 2
+##### 	NIVEL 2
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N2tapa.jpg">
@@ -78,7 +78,7 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 
 
 
-##### 	1.4 NIVEL 3
+##### 	NIVEL 3
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N3perfil%20(3).jpg">
