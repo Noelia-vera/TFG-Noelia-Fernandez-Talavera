@@ -165,10 +165,10 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta13.PNG">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta3.PNG">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta4.PNG">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta5.PNG">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta13.PNG">
-     <img src=" https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta10.PNG.PNG">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta7.PNG">
+     <img src=" https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta10.PNG.PNG">
+     <img src=" https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta11.PNG.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta8.PNG">
 </p>
 
 
