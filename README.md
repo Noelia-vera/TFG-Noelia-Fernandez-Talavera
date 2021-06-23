@@ -4,8 +4,6 @@
 
 ### Ingeniería de Tecnologías Industriales (Universidad Rey Juan Carlos)
 
-***
-
 #### DOCUMENTACIÓN DEL PROYECTO EN LA PESTAÑA 'WIKI':
 
 [https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/wiki](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/wiki)
@@ -48,10 +46,6 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/Robot_perspectiva%20(4).jpg">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/Robot_perspectiva.jpg">
 </p>
-
-
-
-
 ##### 	1.1 NIVEL 0
 
 <p algin="center">
@@ -155,22 +149,27 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 
 ##### 3.1 SÓTANO
 
-##### 3.2 PRIMERA PLANTA
-
-***
-
-#### 4. BASE DE DATOS
-
-##### 	4.1 PRUEBA 1, SÓTANO
-
- <p algin="center">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/BBDD_Resultados/Prueba1/Prueba1_aire.png">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/BBDD_Resultados/Prueba1/Prueba1_ambiental.png">
+<p algin="center">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Sotano/Small/Sotano_planta.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Sotano/Small/sotano1.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Sotano/Small/sotano2.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Sotano/Small/sotano3.PNG">
+        <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Sotano/Small/sotano5.PNG">
 </p>
 
+##### 3.2 PRIMERA PLANTA
 
-
-##### 4.2 PRUEBA 2, PRIMERA PLANTA
+<p algin="center">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta1.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta14.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta13.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta3.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta4.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta5.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta13.PNG">
+     <img src=" https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta10.PNG.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta7.PNG">
+</p>
 
 
 ***
