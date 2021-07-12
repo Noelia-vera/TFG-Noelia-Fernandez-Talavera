@@ -201,16 +201,18 @@ Para la simulación se ha creado el agente autónomo en AutoCAD con todos los co
 ###### 5.1 SÓTANO [REAL](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/recorrido%20elementos.png) VS. [SIMULADO](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/sotano%20recorrido.png) (VIDEO)
 
 <p algin="center">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/recorrido%20elementos.png">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba%20sotano.png">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/sotano%20recorrido.png">
 </p>
+
 
 ###### 5.2 PRIMERA PLANTA [REAL](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/recorrido%20elementos.png) VS. [SIMULADA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/Planta1trayectoria.png) (VIDEO)
 
 <p algin="center">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba%20sotano.png">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/recorrido%20elementos.png">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/Planta1trayectoria.png">
 </p>
+
 
 ###### 5.3 RESULTADOS AMBIENTALES GRAFANA
 
@@ -219,7 +221,6 @@ Para la simulación se ha creado el agente autónomo en AutoCAD con todos los co
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba.PNG">
 </p>
-
 [SEGUNDA PRUEBA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/segunda%20prueba.PNG)
 
 <p algin="center">
