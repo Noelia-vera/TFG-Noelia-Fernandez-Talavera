@@ -15,26 +15,27 @@
 #### ORGANIZACIÓN DE CARPETAS:
 
 * **Códigos de Arduino:** Códigos para subir a la placa Arduino que controla el movimiento del robot y la toma de datos de los sensores.
-
 * **Códigos de Python para la Raspberry Pi:**  Códigos para ejectar en la Raspberry de manejo del robot y subida de datos a la BBDD.
-
 * **Códigos para la simulación de Unity:** códigos para ejecutar en Unity para el movimiento manual, automático y evacuación del robot.
 * **Imágenes:** Diseño en AutoCAD de todos los componentes para la simulación del robot en Unity, imágenes del robot real y de las partes de la torre de bomberos para la simulación (primera planta y sótano).
 * **Planos:** Planos de las cotas y las vistas de los componentes del robot para la simulación del robot en Unity.
+* **Resultados:** Imágenes de los recorridos real y simulados de las pruebas en el CUS, y parámetros ambientales
 
 ***
 
 #### RESUMEN
 
-En este Trabajo de Fin de Grado se ha desarrollado e implementando un modelo de agente autónomo terrestre, controlado de forma remota por un bombero gracias a un teclado, e incorporando la tecnología de localización para interiores ‘*UWB’* que proporcionan unas balizas comerciales, pudiendo así identificar la posición exacta de cada amenaza. Además, el robot podrá esquivar obstáculos y crear una ruta de evacuación alternativa hacia la salida para posibles víctimas.
+Este Trabajo de Fin de Grado consiste en el desarrollo he implementación de un agente autónomo terrestre, capaz de monitorizar el entorno gracias a la tecnología Ultra -Wide Band para la localización de interiores. Posee tres modos de movimiento: de forma manual controlada por teclado, automática realizando un recorrido definido por el usuario, y evacuación creando una ruta alternativa hacia la salida para posibles víctimas. Además, lleva instalados unos sensores de ultrasonidos para esquivar obstáculos he identificar la posición exacta de cada amenaza. 
 
-En segundo lugar, se incorporarán sensores de monitorización del entorno que recogen datos de interés medioambiental como temperatura, CO2, % de humedad relativa, concentración bruta de H2, compuestos volátiles orgánicos y etanol. Estos serán almacenados en una base de datos y posteriormente representados en una plataforma visual para su interpretación, evaluando así el nivel de riesgo para la salud humana que existe en la intervención y las posibles opciones de afrontar la situación.
+También, se han incorporado sensores ambientales para monitorizar el entorno de intervención. Los parámetros selecionados son temperatura, CO2, % de humedad relativa, concentración bruta de H2, compuestos volátiles orgánicos y etanol. Son almacenados en una base de datos y representados en una plataforma visual en tiempo real llamada Grafana. De esta forma se puede evaluar la calidad del aire a lo largo de la intervención para garantizar la seguridad de los equipos de emergencias.
 
-Por último, se creará una simulación tanto del robot como del entorno de intervención, que presenta las mismas características que el escenario real. Una vez diseñado todo, por un lado, se programa la conducta del entorno incorporando fuego, obstáculos y personas, y por otro lado se programa el comportamiento del robot creando un modo manual controlado por teclado, un modo automático haciendo un recorrido similar al que realizaría el robot en el entorno real con las balizas de localización, y un modo de evacuación donde el autómata calcula la ruta más segura y rápida hacia la salida. Su finalidad es estimar tiempos de intervención y crear recorridos alternativos más seguros identificando las zonas más peligrosas del espacio.
+Por último, se ha creado una simulación del agente autónomo y del entorno de intervención, que presentan las mismas características que los real. Por un lado, se ha  programado el entorno incorporando fuego, obstáculos y personas; por otro lado se ha programa el comportamiento del autómata creando un modo manual, un modo automático que hace un recorrido similar al que se realiza en las pruebas y un modo de evacuación para encontrar la ruta más eficiente y rápida hacia la salida. Con ello se obtienen la identificación de las zonas más peligrosas del espacio y los tiempos de intervención.
 
 ***
 
-#### 1. ROBOT REAL
+#### 1. [AGENTE AUTÓNOMO REAL](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/tree/main/Im%C3%A1genes/Robot/Real)
+
+El autómata está dividido en varios niveles para poder insertar nuevo módulos en líneas futuras
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/Robot_alzado.jpg">
@@ -50,14 +51,17 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 
 #####	NIVEL 0
 
+Este nivel esta compuesto por el chasus, dos motores, una batería de litio y tres pilas recargables.
+
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N0detalle.jpg">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N0detalle%20(2).jpg">
 </p>
 
 
-
 ##### 	NIVEL 1
+
+Se encuentra el controlador de los motores, una placA Arduino UNO WiFi REV2 y una Raspberry Pi 4.
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N1planta.jpg">
@@ -67,8 +71,9 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 </p>
 
 
-
 ##### 	NIVEL 2
+
+Aquí hay 6 sensores de ultrasonidos, Una placa Arduino UNO WiFi REV2, un sensor de temperatura, % de humedad y un sensor de calidad de aire.
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N2tapa.jpg">
@@ -79,8 +84,9 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 </p>
 
 
-
 ##### 	NIVEL 3
+
+Destinado al acoplamiento de nuevo elementos como una UDO, cámara térmica, Pycom, Deep Beacon, etc.
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N3perfil%20(3).jpg">
@@ -95,7 +101,9 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 
 ***
 
-#### 2. ROBOT SIMULADO EN AUTOCAD Y EN UNITY
+#### 2. AGENTE AUTÓNOMO SIMULADO EN [AUTOCAD](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/tree/main/Im%C3%A1genes/Robot/Simulado_AutoCAD) Y EN [UNITY](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/tree/main/Im%C3%A1genes/Robot/Simulado_Unity)
+
+Para la simulación se ha creado el agente autónomo en AutoCAD con todos los componentes y el entorno con Unity, una plataforma para desarrollar videojuegos muy versatil.
 
 #####		2.1 ROBOT Y NIVELES EN AUTOCAD
 
@@ -176,9 +184,7 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
 
 ***
 
-##### 4. EJEMPLOS PLANOS
-
-[link al resto de Planos](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/tree/main/Planos)
+##### 4. EJEMPLOS DE [PLANOS](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/tree/main/Planos)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_cotas_Controlador.PNG">
@@ -187,4 +193,35 @@ Por último, se creará una simulación tanto del robot como del entorno de inte
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_dise%C3%B1o_PozyxArduino.PNG">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_cotas_Ultrasonidos_Soporte.PNG">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_dise%C3%B1o_Ultrasonidos_Soporte.PNG">
+</p>
+
+
+##### 5. RESULTADOS DE LAS PRUEBAS
+
+###### 5.1 SÓTANO REAL VS. SIMULADO (VIDEO)
+
+<p algin="center">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba%20sotano.png">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/sotano%20recorrido.png">
+</p>
+
+###### 5.2 PRIMERA PLANTA REAL VS. SIMULADA (VIDEO)
+
+<p algin="center">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba%20sotano.png">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/Planta1trayectoria.png">
+</p>
+
+###### 5.3 RESULTADOS AMBIENTALES GRAFANA
+
+[PRIMERA PRUEBA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/primera%20prueba.PNG)
+
+<p algin="center">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba.PNG">
+</p>
+
+[SEGUNDA PRUEBA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/segunda%20prueba.PNG)
+
+<p algin="center">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/segunda%20prueba.PNG">
 </p>
