@@ -51,7 +51,7 @@ El autómata está dividido en varios niveles para poder insertar nuevo módulos
 
 #####	NIVEL 0
 
-Este nivel esta compuesto por el chasus, dos motores, una batería de litio y tres pilas recargables.
+Este nivel esta compuesto por el chasIs, dos motores, una batería de litio y tres pilas recargables.
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Real/Small/N0detalle.jpg">
@@ -105,7 +105,7 @@ Destinado al acoplamiento de nuevo elementos como una UDO, cámara térmica, Pyc
 
 Para la simulación se ha creado el agente autónomo en AutoCAD con todos los componentes y el entorno con Unity, una plataforma para desarrollar videojuegos muy versatil.
 
-#####		2.1 ROBOT Y NIVELES EN AUTOCAD
+#####		2.1 AGENTE AUTÓNOMO Y NIVELES EN [AUTOCAD](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/tree/main/Im%C3%A1genes/Robot/Simulado_AutoCAD)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_AutoCAD/Small/robot_montado.PNG">
@@ -131,7 +131,7 @@ Para la simulación se ha creado el agente autónomo en AutoCAD con todos los co
 
 
 
-##### 2.3 ROBOT Y NIVELES EN UNITY
+##### 2.3 AGENTE AUTÓNOMOY NIVELES EN [UNITY](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/tree/main/Im%C3%A1genes/Robot/Simulado_Unity)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Robot/Simulado_Unity/Small/perfili.png">
@@ -157,7 +157,7 @@ Para la simulación se ha creado el agente autónomo en AutoCAD con todos los co
 
 #### 3. ENTORNO EN UNITY
 
-##### 3.1 SÓTANO
+##### 3.1 [SÓTANO](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/tree/main/Im%C3%A1genes/Entorno/Simulado_Unity/Sotano)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Sotano/Small/Sotano_planta.PNG">
@@ -167,7 +167,7 @@ Para la simulación se ha creado el agente autónomo en AutoCAD con todos los co
         <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Sotano/Small/sotano5.PNG">
 </p>
 
-##### 3.2 PRIMERA PLANTA
+##### 3.2 [PRIMERA PLANTA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/tree/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Im%C3%A1genes/Entorno/Simulado_Unity/Primera_planta/Small/planta1.PNG">
@@ -198,14 +198,14 @@ Para la simulación se ha creado el agente autónomo en AutoCAD con todos los co
 
 ##### 5. RESULTADOS DE LAS PRUEBAS
 
-###### 5.1 SÓTANO REAL VS. SIMULADO (VIDEO)
+###### 5.1 SÓTANO [REAL](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/recorrido%20elementos.png) VS. [SIMULADO](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/sotano%20recorrido.png) (VIDEO)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba%20sotano.png">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/sotano%20recorrido.png">
 </p>
 
-###### 5.2 PRIMERA PLANTA REAL VS. SIMULADA (VIDEO)
+###### 5.2 PRIMERA PLANTA [REAL](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/recorrido%20elementos.png) VS. [SIMULADA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/Planta1trayectoria.png) (VIDEO)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba%20sotano.png">
