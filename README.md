@@ -202,27 +202,34 @@ Para la simulación se ha creado el agente autónomo en AutoCAD con todos los co
 
 ##### 5. RESULTADOS DE LAS PRUEBAS
 
-###### 5.1 SÓTANO [REAL](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/recorrido%20elementos.png) VS. [SIMULADO](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/sotano%20recorrido.png) 
+###### 5.1 SÓTANO [REAL](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba%20sotano.png) VS. [SIMULADO](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/sotano%20recorrido.png) 
 
-###### [VIDEO REAL](https://www.youtube.com/watch?v=li0AAESpnBk&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=5)
+[VIDEO REAL  SÓTANO](https://www.youtube.com/watch?v=li0AAESpnBk&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=5)
 
-###### [VIDEO SIMULADO](https://www.youtube.com/watch?v=P-pUiE7IAQs&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=4)
+[VIDEO SIMULADO SÓTANO](https://www.youtube.com/watch?v=P-pUiE7IAQs&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=4)
+
+<p algin="center">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/sotano%20recorrido.png">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/sotano%20recorrido.png">
+</p>
+
 
 ###### 5.2 PRIMERA PLANTA [REAL](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/recorrido%20elementos.png) VS. [SIMULADA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/Planta1trayectoria.png) 
 
-##### [VIDEO REAL](https://www.youtube.com/watch?v=W9kNVwnYAps&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=3)
+[VIDEO REAL PRIMERA PLANTA](https://www.youtube.com/watch?v=W9kNVwnYAps&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=3)
 
-##### [VIDEO SIMULADO](https://www.youtube.com/watch?v=GUqyOBWUdCU&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=2)
+[VIDEO SIMULADO PRIMERA PLANTA](https://www.youtube.com/watch?v=GUqyOBWUdCU&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=2)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/recorrido%20elementos.png">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/Planta1trayectoria.png">
 </p>
-#####  5.3 COMPARATIVA DE LOS DOS ENTRONOS
 
-##### [VIDEO SÓTANO](https://www.youtube.com/watch?v=NqTfmxBixew&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=1)
+###### 5.3 VISTA COMBINADA DE LOS DOS ENTRONOS
 
-##### [VIDEO PRIMERA PLANTA](https://www.youtube.com/watch?v=PBfXowEH8y0&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=6)
+[VIDEO SÓTANO REAL VS. SIMULADO](https://www.youtube.com/watch?v=NqTfmxBixew&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=1)
+
+[VIDEO PRIMERA PLANTA REAL VS. SIMULADA](https://www.youtube.com/watch?v=PBfXowEH8y0&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=6)
 
 ###### 5.4 RESULTADOS AMBIENTALES GRAFANA
 
