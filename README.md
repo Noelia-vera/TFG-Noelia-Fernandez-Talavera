@@ -202,16 +202,17 @@ Para la simulación se ha creado el agente autónomo en AutoCAD con todos los co
 
 ##### 5. RESULTADOS DE LAS PRUEBAS
 
-###### 5.1 SÓTANO [REAL](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba%20sotano.png) VS. [SIMULADO](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/sotano%20recorrido.png) 
+###### 5.1 SÓTANO [REAL](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/primera%20prueba%20sotano.png) VS. [SIMULADO](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/sotano%20recorrido.png) 
 
 [VIDEO REAL  SÓTANO](https://www.youtube.com/watch?v=li0AAESpnBk&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=5)
 
 [VIDEO SIMULADO SÓTANO](https://www.youtube.com/watch?v=P-pUiE7IAQs&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=4)
 
 <p algin="center">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/sotano%20recorrido.png">
-    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/sotano%20recorrido.png">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba%20sotano.png">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/sotano%20recorrido.png">
 </p>
+
 
 
 ###### 5.2 PRIMERA PLANTA [REAL](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/recorrido%20elementos.png) VS. [SIMULADA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/Planta1trayectoria.png) 
@@ -238,8 +239,10 @@ Para la simulación se ha creado el agente autónomo en AutoCAD con todos los co
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba.PNG">
 </p>
+
 [SEGUNDA PRUEBA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/segunda%20prueba.PNG)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/segunda%20prueba.PNG">
 </p>
+
