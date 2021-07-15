@@ -198,15 +198,17 @@ Para la simulación se ha creado el agente autónomo en AutoCAD con todos los co
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_cotas_Ultrasonidos_Soporte.PNG">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_dise%C3%B1o_Ultrasonidos_Soporte.PNG">
 </p>
-
+***
 
 ##### 5. RESULTADOS DE LAS PRUEBAS
 
 ###### 5.1 SÓTANO [REAL](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/primera%20prueba%20sotano.png) VS. [SIMULADO](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/sotano%20recorrido.png) 
 
-[VIDEO REAL  SÓTANO](https://www.youtube.com/watch?v=li0AAESpnBk&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=5)
+En este apartado se compara el recorrido real y simulado que hizo el autómata en la primera prueba del CUS. en Youtube se encuentran los videos en primera y tercera persona de este recorrido.
 
-[VIDEO SIMULADO SÓTANO](https://www.youtube.com/watch?v=P-pUiE7IAQs&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=4)
+* [VIDEO REAL  SÓTANO](https://www.youtube.com/watch?v=li0AAESpnBk&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=5)
+
+* [VIDEO SIMULADO SÓTANO](https://www.youtube.com/watch?v=P-pUiE7IAQs&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=4)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba%20sotano.png">
@@ -214,35 +216,54 @@ Para la simulación se ha creado el agente autónomo en AutoCAD con todos los co
 </p>
 
 
-
 ###### 5.2 PRIMERA PLANTA [REAL](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/recorrido%20elementos.png) VS. [SIMULADA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/Planta1trayectoria.png) 
 
-[VIDEO REAL PRIMERA PLANTA](https://www.youtube.com/watch?v=W9kNVwnYAps&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=3)
+En este apartado se compara el recorrido real y simulado que hizo el autómata en la segunda prueba del CUS. en Youtube se encuentran los videos en primera y tercera persona de este recorrido.
 
-[VIDEO SIMULADO PRIMERA PLANTA](https://www.youtube.com/watch?v=GUqyOBWUdCU&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=2)
+* [VIDEO REAL PRIMERA PLANTA](https://www.youtube.com/watch?v=W9kNVwnYAps&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=3)
+
+* [VIDEO SIMULADO PRIMERA PLANTA](https://www.youtube.com/watch?v=GUqyOBWUdCU&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=2)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/recorrido%20elementos.png">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/Planta1trayectoria.png">
 </p>
-
 ###### 5.3 VISTA COMBINADA DE LOS DOS ENTRONOS
 
-[VIDEO SÓTANO REAL VS. SIMULADO](https://www.youtube.com/watch?v=NqTfmxBixew&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=1)
+Aquí se presentan unos videos donde se compara la vista real y simulada de los recorridos.
 
-[VIDEO PRIMERA PLANTA REAL VS. SIMULADA](https://www.youtube.com/watch?v=PBfXowEH8y0&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=6)
+* [VIDEO SÓTANO REAL VS. SIMULADO](https://www.youtube.com/watch?v=NqTfmxBixew&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=1)
+
+* [VIDEO PRIMERA PLANTA REAL VS. SIMULADA](https://www.youtube.com/watch?v=PBfXowEH8y0&list=PL6ZMLEK_eBr83WLtaCB6bIBidZlwUOiJK&index=6)
 
 ###### 5.4 RESULTADOS AMBIENTALES GRAFANA
 
-[PRIMERA PRUEBA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/primera%20prueba.PNG)
+Se muestran los datos medioambientales del entrono en condiciones normales (primera prueba) y en condiciones de fuego y humo frío (segunda prueba).
+
+* [PRIMERA PRUEBA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/primera%20prueba.PNG)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba.PNG">
 </p>
-
-[SEGUNDA PRUEBA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/segunda%20prueba.PNG)
+* [SEGUNDA PRUEBA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/segunda%20prueba.PNG)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/segunda%20prueba.PNG">
 </p>
+###### 5.6 RESULTADOS DEL MODO DE EVACUACIÓN EN LA SIMULACIÓN
 
+En este úlitmo apartado se evalúa el recorrido de evacuación que realiza el robot terrestre en presencia de fuego. El manto azul indica el espacio disponible navegable y la persona es el objetivo donde se debe llegar de la forma más rápida y segura posible.
+
+* [EVACUACIÓN SÓTANO](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/Evacuaci%C3%B3n%20s%C3%B3tano.png)
+
+<p algin="center">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/Navegaci%C3%B3n%20s%C3%B3tano.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/Evacuaci%C3%B3n%20s%C3%B3tano%20.png">
+</p>
+
+* [EVACUACION PRIMERA PLANTA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/evacuacion%20trayectoria.png)
+
+<p algin="center">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/navegacion%20planta1.PNG">
+    <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/evacuacion%20trayectoria.png">
+</p>
