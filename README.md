@@ -198,7 +198,11 @@ Para la simulación se ha creado el agente autónomo en AutoCAD con todos los co
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_cotas_Ultrasonidos_Soporte.PNG">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_dise%C3%B1o_Ultrasonidos_Soporte.PNG">
 </p>
+
+
 ***
+
+
 
 ##### 5. RESULTADOS DE LAS PRUEBAS
 
@@ -228,7 +232,9 @@ En este apartado se compara el recorrido real y simulado que hizo el autómata e
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/recorrido%20elementos.png">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/Planta1trayectoria.png">
 </p>
-###### 5.3 VISTA COMBINADA DE LOS DOS ENTRONOS
+##### 5.3 VISTA COMBINADA DE LOS DOS ENTRONOS
+
+
 
 Aquí se presentan unos videos donde se compara la vista real y simulada de los recorridos.
 
@@ -250,7 +256,11 @@ Se muestran los datos medioambientales del entrono en condiciones normales (prim
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/segunda%20prueba.PNG">
 </p>
-###### 5.6 RESULTADOS DEL MODO DE EVACUACIÓN EN LA SIMULACIÓN
+###### 
+
+###### 5.5 RESULTADOS DEL MODO EVACUACIÓN EN LA SIMULACIÓN
+
+
 
 En este úlitmo apartado se evalúa el recorrido de evacuación que realiza el robot terrestre en presencia de fuego. El manto azul indica el espacio disponible navegable y la persona es el objetivo donde se debe llegar de la forma más rápida y segura posible.
 
@@ -261,7 +271,7 @@ En este úlitmo apartado se evalúa el recorrido de evacuación que realiza el r
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/Evacuaci%C3%B3n%20s%C3%B3tano%20.png">
 </p>
 
-* [EVACUACION PRIMERA PLANTA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/evacuacion%20trayectoria.png)
+* [EVACUACIÓN PRIMERA PLANTA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/evacuacion%20trayectoria.png)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/navegacion%20planta1.PNG">
