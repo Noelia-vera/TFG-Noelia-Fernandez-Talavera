@@ -188,7 +188,7 @@ Para la simulación se ha creado el agente autónomo en AutoCAD con todos los co
 
 ***
 
-##### 4. EJEMPLOS DE [PLANOS](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/tree/main/Planos)
+#### 4. EJEMPLOS DE [PLANOS](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/tree/main/Planos)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Planos/Small/Plano_cotas_Controlador.PNG">
@@ -202,9 +202,7 @@ Para la simulación se ha creado el agente autónomo en AutoCAD con todos los co
 
 ***
 
-
-
-##### 5. RESULTADOS DE LAS PRUEBAS
+#### 5. RESULTADOS DE LAS PRUEBAS
 
 ###### 5.1 SÓTANO [REAL](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/primera%20prueba%20sotano.png) VS. [SIMULADO](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/sotano%20recorrido.png) 
 
@@ -234,9 +232,7 @@ En este apartado se compara el recorrido real y simulado que hizo el autómata e
 </p>
 
 
-##### 5.3 VISTA COMBINADA DE LOS DOS ENTRONOS
-
-
+###### 5.3 VISTA COMBINADA DE LOS DOS ENTRONOS
 
 Aquí se presentan unos videos donde se compara la vista real y simulada de los recorridos.
 
@@ -260,6 +256,8 @@ Se muestran los datos medioambientales del entrono en condiciones normales (prim
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/segunda%20prueba.PNG">
 </p>
+
+
 ###### 5.5 RESULTADOS DEL MODO EVACUACIÓN EN LA SIMULACIÓN
 
 En este úlitmo apartado se evalúa el recorrido de evacuación que realiza el robot terrestre en presencia de fuego. El manto azul indica el espacio disponible navegable y la persona es el objetivo donde se debe llegar de la forma más rápida y segura posible.
