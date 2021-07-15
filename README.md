@@ -232,6 +232,8 @@ En este apartado se compara el recorrido real y simulado que hizo el autómata e
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/recorrido%20elementos.png">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/Planta1trayectoria.png">
 </p>
+
+
 ##### 5.3 VISTA COMBINADA DE LOS DOS ENTRONOS
 
 
@@ -251,16 +253,14 @@ Se muestran los datos medioambientales del entrono en condiciones normales (prim
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/primera%20prueba.PNG">
 </p>
+
+
 * [SEGUNDA PRUEBA](https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/segunda%20prueba.PNG)
 
 <p algin="center">
     <img src="https://github.com/Noelia-vera/TFG-Noelia-Fernandez-Talavera/blob/main/Resultados/small/segunda%20prueba.PNG">
 </p>
-###### 
-
 ###### 5.5 RESULTADOS DEL MODO EVACUACIÓN EN LA SIMULACIÓN
-
-
 
 En este úlitmo apartado se evalúa el recorrido de evacuación que realiza el robot terrestre en presencia de fuego. El manto azul indica el espacio disponible navegable y la persona es el objetivo donde se debe llegar de la forma más rápida y segura posible.
 
